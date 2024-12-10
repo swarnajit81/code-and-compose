@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary : #1F4B43;
+  --secondary: #E7C873;
+  --accent: #1A1A1A;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,4 +21,9 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-size: clamp(30px ,4vw + 1rem , 60px);
+  line-height: 1em;
 }
